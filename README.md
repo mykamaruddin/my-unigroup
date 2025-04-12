@@ -19,3 +19,8 @@ sudo ./install_orangehrm.sh
 sudo curl -o install_orangehrm.sh https://raw.githubusercontent.com/mykamaruddin/my-unigroup/refs/heads/myk/install_snipeit.sh
 sudo chmod +x install_snipeit.sh 
 sudo ./install_snipeit.sh 
+
+4: Installing Dolibarr
+sudo curl -o install_orangehrm.sh https://raw.githubusercontent.com/mykamaruddin/my-unigroup/refs/heads/myk/install_dolibarr.sh
+sudo chmod +x install_dolibarr.sh 
+sudo ./install_dolibarr.sh 
