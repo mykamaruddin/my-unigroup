@@ -131,7 +131,7 @@ echo "🌐 Downloading Netdata installer script..."
 sudo wget https://get.netdata.cloud/kickstart.sh -O /tmp/kickstart.sh
 
 echo "⚙️ Running Netdata installer..."
-sudo bash /tmp/kickstart.sh
+sudo bash /tmp/kickstart.sh --yes
 
 echo "✅ Netdata installation complete."
 
