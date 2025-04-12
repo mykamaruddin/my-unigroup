@@ -24,3 +24,8 @@ sudo ./install_snipeit.sh
 sudo curl -o install_orangehrm.sh https://raw.githubusercontent.com/mykamaruddin/my-unigroup/refs/heads/myk/install_dolibarr.sh
 sudo chmod +x install_dolibarr.sh 
 sudo ./install_dolibarr.sh 
+
+4: Installing Cyberpanel
+sudo curl -o install_orangehrm.sh https://raw.githubusercontent.com/mykamaruddin/my-unigroup/refs/heads/myk/install_cyberpanel.sh
+sudo chmod +x install_cyberpanel.sh 
+sudo ./install_cyberpanel.sh 
