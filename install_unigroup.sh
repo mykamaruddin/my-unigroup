@@ -184,7 +184,12 @@ echo "🧹 Removing unnecessary packages..."
 sudo apt autoremove -y
 
 ### Apply netplan configuration
-echo "⚙️ Applying netplan configuration..."
-sudo netplan apply
-
 echo "✅ System update, cleanup, and network configuration complete."
+
+sleep 3  # Pause for 3 seconds
+
+echo "⚠️ System is shutting down. Please create a snapshot before rebooting this server back up."
+sleep 5  # Optional pause to let the message be seen
+shutdown now
+
+
