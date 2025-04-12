@@ -25,7 +25,7 @@ sudo curl -o install_orangehrm.sh https://raw.githubusercontent.com/mykamaruddin
 sudo chmod +x install_dolibarr.sh 
 sudo ./install_dolibarr.sh 
 
-4: Installing Cyberpanel (Ubuntu 22.04 LTS Headless)
+5: Installing Cyberpanel (Ubuntu 22.04 LTS Headless)
 sudo curl -o install_orangehrm.sh https://raw.githubusercontent.com/mykamaruddin/my-unigroup/refs/heads/myk/install_cyberpanel.sh
 sudo chmod +x install_cyberpanel.sh 
 sudo ./install_cyberpanel.sh 
