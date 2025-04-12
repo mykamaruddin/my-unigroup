@@ -5,7 +5,7 @@
 # ------------------------------------------------------------
 
 MYSQL_ROOT_PASSWORD="ict01@Unigroup"
-IP_ADDRESS=$(hostname -I | awk '{print $1}')
+$server_ip=$(hostname -I | awk '{print $1}')
 
 # Function to print horizontal line
 print_line() {
