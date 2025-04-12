@@ -14,3 +14,8 @@ sudo ./install_managerio.sh
 sudo curl -o install_orangehrm.sh https://raw.githubusercontent.com/mykamaruddin/my-unigroup/refs/heads/myk/install_orangehrm.sh
 sudo chmod +x install_orangehrm.sh 
 sudo ./install_orangehrm.sh 
+
+4: Installing Snipe-IT
+sudo curl -o install_orangehrm.sh https://raw.githubusercontent.com/mykamaruddin/my-unigroup/refs/heads/myk/install_snipeit.sh
+sudo chmod +x install_snipeit.sh 
+sudo ./install_snipeit.sh 
