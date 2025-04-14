@@ -16,16 +16,22 @@ sudo chmod +x install_orangehrm.sh
 sudo ./install_orangehrm.sh 
 
 4: Installing Snipe-IT (Ubuntu 24.04 LTS Headless)
-sudo curl -o install_orangehrm.sh https://raw.githubusercontent.com/mykamaruddin/my-unigroup/refs/heads/myk/install_snipeit.sh
+sudo curl -o install_snipeit.sh https://raw.githubusercontent.com/mykamaruddin/my-unigroup/refs/heads/myk/install_snipeit.sh
 sudo chmod +x install_snipeit.sh 
 sudo ./install_snipeit.sh 
 
 4: Installing Dolibarr (Ubuntu 24.04 LTS Headless)
-sudo curl -o install_orangehrm.sh https://raw.githubusercontent.com/mykamaruddin/my-unigroup/refs/heads/myk/install_dolibarr.sh
+sudo curl -o install_dolibarr.sh https://raw.githubusercontent.com/mykamaruddin/my-unigroup/refs/heads/myk/install_dolibarr.sh
 sudo chmod +x install_dolibarr.sh 
 sudo ./install_dolibarr.sh 
 
 5: Installing Cyberpanel (Ubuntu 22.04 LTS Headless)
-sudo curl -o install_orangehrm.sh https://raw.githubusercontent.com/mykamaruddin/my-unigroup/refs/heads/myk/install_cyberpanel.sh
+sudo curl -o install_cyberpanel.sh https://raw.githubusercontent.com/mykamaruddin/my-unigroup/refs/heads/myk/install_cyberpanel.sh
 sudo chmod +x install_cyberpanel.sh 
 sudo ./install_cyberpanel.sh 
+
+6: Installing ERPNext 15 (Ubuntu 22.04 LTS Headless)
+sudo curl -o install_erpnext.sh https://raw.githubusercontent.com/mykamaruddin/my-unigroup/refs/heads/myk/install_erpnext.sh
+sudo chmod +x install_erpnext.sh 
+sudo ./install_erpnext.sh 
+(username: Administrator password:  what have being set in $default_password)
