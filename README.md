@@ -30,8 +30,14 @@ sudo curl -o install_cyberpanel.sh https://raw.githubusercontent.com/mykamaruddi
 sudo chmod +x install_cyberpanel.sh 
 sudo ./install_cyberpanel.sh 
 
-6: Installing ERPNext 15 (Ubuntu 22.04 LTS Headless)
+6: Installing ERPNext 15 (Ubuntu 24.04 LTS Headless)
 sudo curl -o install_erpnext.sh https://raw.githubusercontent.com/mykamaruddin/my-unigroup/refs/heads/myk/install_erpnext.sh
 sudo chmod +x install_erpnext.sh 
 sudo ./install_erpnext.sh 
+(username: Administrator password:  what have being set in $default_password)
+
+7: Installing Odoo 18 (Ubuntu 24.04 LTS Headless)
+sudo curl -o install_odoo.sh https://raw.githubusercontent.com/mykamaruddin/my-unigroup/refs/heads/myk/install_odoo.sh
+sudo chmod +x install_odoo.sh 
+sudo ./install_odoo.sh 
 (username: Administrator password:  what have being set in $default_password)
