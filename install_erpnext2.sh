@@ -26,7 +26,6 @@ clear
 
 # Step 2.1 : Continue Installation
 print_step "Step 2.1: 🧬Continue installation"
-su frappe
 cd /home/frappe
 pause_and_clear
 
