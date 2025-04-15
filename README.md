@@ -41,3 +41,9 @@ sudo curl -o install_odoo.sh https://raw.githubusercontent.com/mykamaruddin/my-u
 sudo chmod +x install_odoo.sh 
 sudo ./install_odoo.sh 
 (username: Administrator password:  what have being set in $default_password)
+
+8: Installing Focalboard (Ubuntu 24.04 LTS Headless + Docker)
+sudo curl -o install_focalboard_docker.sh https://raw.githubusercontent.com/mykamaruddin/my-unigroup/refs/heads/myk/install_focalboard_docker.sh
+sudo chmod +x install_focalboard_docker.sh 
+sudo ./install_focalboard_docker.sh 
+(initial setup: Create your own username and password)
