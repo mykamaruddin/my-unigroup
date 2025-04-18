@@ -47,3 +47,9 @@ sudo curl -o install_focalboard_docker.sh https://raw.githubusercontent.com/myka
 sudo chmod +x install_focalboard_docker.sh 
 sudo ./install_focalboard_docker.sh 
 (initial setup: Create your own username and password)
+
+9: Installing MintHCM (Ubuntu 24.04 LTS Headless + Docker) 
+sudo curl -o install_minthcm_docker.sh https://raw.githubusercontent.com/mykamaruddin/my-unigroup/refs/heads/myk/install_minthcm_docker.sh 
+sudo chmod +x install_minthcm_docker.sh 
+sudo ./install_minthcm_docker.sh 
+(initial setup: username: admin and password: minthcm)
