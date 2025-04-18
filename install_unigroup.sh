@@ -182,6 +182,7 @@ echo "------------------------------------------------------------"
 sudo apt update -y && sudo apt upgrade -y
 sudo apt-get install -f -y
 sudo apt autoremove -y
+rm *.sh
 echo "✅ System update, cleanup, and network configuration complete."
 sleep 3
 clear
