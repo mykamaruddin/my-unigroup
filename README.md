@@ -53,3 +53,9 @@ sudo curl -o install_minthcm_docker.sh https://raw.githubusercontent.com/mykamar
 sudo chmod +x install_minthcm_docker.sh 
 sudo ./install_minthcm_docker.sh 
 (initial setup: username: admin and password: minthcm)
+
+10: Installing Nextcloud (Ubuntu 24.04 LTS Headless) 
+sudo curl -o install_nextcloud.sh https://raw.githubusercontent.com/mykamaruddin/my-unigroup/refs/heads/myk/install_nextcloud.sh 
+sudo chmod +x install_nextcloud.sh 
+sudo ./install_nextcloud.sh 
+(initial setup: username: admin and password: password on installation)
