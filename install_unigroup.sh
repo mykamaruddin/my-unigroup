@@ -10,7 +10,7 @@ echo "------------------------------------------------------------"
 echo "Step 1: Checking for root permissions..."
 echo "------------------------------------------------------------"
 if [[ $EUID -ne 0 ]]; then
-   echo "❌ This script must be run as root. Try: sudo ./setup_myk_nodes.sh"
+   echo "❌ This script must be run as root. Try: sudo ./install_unigroup.sh"
    exit 1
 fi
 clear
