@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# setup_myk_nodes.sh
+# install_unigroup.sh
 # Ubuntu LTS Node Setup Script for MYK Nodes
 
 set -e  # Exit on error
