@@ -59,3 +59,9 @@ sudo curl -o install_nextcloud.sh https://raw.githubusercontent.com/mykamaruddin
 sudo chmod +x install_nextcloud.sh 
 sudo ./install_nextcloud.sh 
 (initial setup: username: admin and password: password on installation)
+
+11: Installing Moodle (Ubuntu 24.04 LTS Headless) 
+sudo curl -o install_moodle.sh https://raw.githubusercontent.com/mykamaruddin/my-unigroup/refs/heads/myk/install_moodle.sh 
+sudo chmod +x install_moodle.sh 
+sudo ./install_moodle.sh 
+(download the Completing_Moodle_Installation and follow the steps)
