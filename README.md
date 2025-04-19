@@ -64,4 +64,4 @@ sudo ./install_nextcloud.sh
 sudo curl -o install_moodle.sh https://raw.githubusercontent.com/mykamaruddin/my-unigroup/refs/heads/myk/install_moodle.sh 
 sudo chmod +x install_moodle.sh 
 sudo ./install_moodle.sh 
-(download the Completing_Moodle_Installation and follow the steps)
+(download the moodle_steps_to_compete_installation and follow the steps)
